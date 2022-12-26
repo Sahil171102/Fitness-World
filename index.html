@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="@import url('https://fonts.googleapis.com/css2?family=Balthazar&display=swap');">
+    <link rel="stylesheet" href=".css/style.css">   
+    <style>
+        body{
+            font-family: 'Balthazar', serif;
+            color:white;
+            margin:0px;
+            padding:0px;
+            background:url('Img/B.jpg');
+            height:4500px;
+
+
+
+
+        }
+        .left{border:2px solid red;
+            display:inline-block;
+            position:absolute;
+
+
+
+        }
+        .left img{
+            width:100px;
+            /* filter: invert(50%); */
+
+
+
+        }
+        .left div{
+            text-align: center;
+            line-height: 1;
+        }
+        .mid{border:2px solid green;
+            display: block;
+            width:36%;
+            margin:34px auto;
+
+            
+
+
+        }
+        .right{border:2px solid yellow;
+            position:absolute;
+            right:34px;
+            top:43px;
+
+        }
+        .navbar{position:inline-block;
+
+        }
+        .navbar li{
+            /* color:white; */
+            display:inline-block;
+            font-size: 25px;
+
+
+        }
+        .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding:34px 23px;
+        }
+        .navbar li a.active ,.navbar li a:hover{
+            text-decoration: underline;
+        }
+        .btn{
+            margin:0px 9px;
+            background-color: black;
+            color:white ;
+            padding:3px 4px;
+            border:2px solid grey;
+            border-radius: 10px;
+            font-size: 20px;
+            cursor:pointer;
+
+        }
+        .btn:hover{
+            background-color: grey;
+        }
+        .container{
+            
+    border: 2px white solid;
+    margin: 106px 80px;
+    padding: 75px;
+    width: 36%;
+    border-radius: 28px;
+
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display:block;
+            width:74%;
+            margin:20px auto;
+        }
+        .form-group input{
+            font-family: 'Balthazar', serif;
+            text-align: center;
+            display: block;
+            width:508px;
+            padding:1px;
+            border:2px solid black;
+            margin:11px auto;
+            font-size:25px;
+            border-radius:8px;
+
+        }
+
+
+
+    </style>
+    <title>Fitness World</title>
+</head>
+<body>
+    <header>
+    <div class="header">
+        <div class="left">
+            <img src="Img/download.jfif" alt="">
+            <div>Sahil Fitness</div>
+            
+        </div>
+            <div class="mid">
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">Fitness Calculator</a></li>
+                    <!-- <li><a href="#">Contact Us</a></li> -->
+                    
+                </ul>
+            </div>
+            <div class="right"> <button class="btn">Call us now</button><button class="btn">Emailus</button></div>
+        
+
+
+        
+    </div>
+    </header>
+    <div class="container"><h1>Join the best Gym</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Age">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Sex">
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Phone number">
+            </div>
+            <div class="form-group"><input type="text" placeholder="Email Id"></div>
+            <button class="btn">Submit</button>
+
+        </form>
+    </div>
+    
+</body>
+</html>
